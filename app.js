@@ -25,6 +25,7 @@ function newli() {
     remvbtn.style.display = 'inline-block';
     li.innerText = input.value;
     li.style.paddingBottom = '10px';
+    li.style.fontFamily='Manrope,sans-serif';
     console.dir(input);
     ul.appendChild(li);
     li.appendChild(remvbtn);
